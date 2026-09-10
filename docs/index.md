@@ -96,6 +96,7 @@ Potential users:
 3. System administrators who need access to manage API data integration, system configuration, and platform maintenance.
 
 Gannt Chart:
+
 ```mermaid
 gantt
     title Project Schedule (by Meeting)
