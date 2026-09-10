@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # AtmoGuard
 
 This repository is created for DTETI UGM's Information Engineering Senior Project 2026/2027
