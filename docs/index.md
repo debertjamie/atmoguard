@@ -146,6 +146,8 @@ Entity relationship diagram:
 
 Low-fidelity wireframe:
 
+![Low Fidelity Wireframe](/docs/images/lofi.senpro.figma.png)
+
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
 
