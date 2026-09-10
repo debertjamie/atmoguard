@@ -145,3 +145,17 @@ Functional requirements:
 Entity relationship diagram:
 
 Low-fidelity wireframe:
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('pre code.language-mermaid').forEach((element) => {
+      const div = document.createElement('div');
+      div.className = 'mermaid';
+      div.textContent = element.textContent;
+      element.parentElement.replaceWith(div);
+    });
+    mermaid.initialize({ startOnLoad: true });
+  });
+</script>
