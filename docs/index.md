@@ -125,7 +125,7 @@ gantt
 
 Use case diagram:
 
-![Use Case Diagram](/docs/images/usecase.senpro.drawio.png)
+![Use Case Diagram](images/usecase.senpro.drawio.png)
 
 Functional requirements:
 
@@ -142,11 +142,11 @@ Functional requirements:
 
 Entity relationship diagram:
 
-![Entity Relationship Diagram](/docs/images/relationship.senpro.drawio.png)
+![Entity Relationship Diagram](images/relationship.senpro.drawio.png)
 
 Low-fidelity wireframe:
 
-![Low Fidelity Wireframe](/docs/images/lofi.senpro.figma.png)
+![Low Fidelity Wireframe](images/lofi.senpro.figma.png)
 
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
