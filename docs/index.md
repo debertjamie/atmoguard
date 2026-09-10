@@ -125,6 +125,8 @@ gantt
 
 Use case diagram:
 
+![Use Case Diagram](/docs/images/usecase.senpro.drawio.png)
+
 Functional requirements:
 
 | **FR** | **Description** |
@@ -139,6 +141,8 @@ Functional requirements:
 ### 3. System Design
 
 Entity relationship diagram:
+
+![Entity Relationship Diagram](/docs/images/relationship.senpro.drawio.png)
 
 Low-fidelity wireframe:
 
