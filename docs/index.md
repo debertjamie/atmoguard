@@ -83,3 +83,60 @@ Competitor Analysis:
 | **Key Competitive Advantage and Unique Value** |
 | :--- |
 | Democratizing personal environmental data through a combination of AI and wearable sensors |
+
+## Software Development Life Cycle (SDLC), Steps 1-3
+
+### 1. Planning
+
+Product purpose: Provides a local air quality monitoring platform that displays real-time air quality index (AQI) data, issues early warnings (alerts), and offers recommendations for safe outdoor activities to users.  
+
+Potential users: 
+1. General public/commuters who need quick access to accurate air quality information in their area before going out.
+2. Vulnerable groups (i.e. elderly, children, people with asthma) who need notifications about pollution hazard levels and specific health/activity recommendations.
+3. System administrators who need access to manage API data integration, system configuration, and platform maintenance.
+
+Gannt Chart:
+```mermaid
+gantt
+    title Project Schedule (by Meeting)
+    %% dateFormat YYYY-MM-DD sets the inner date scale.
+    %% We use dates starting from 2024-01-01 to manage 'meetings' as single days.
+    dateFormat  YYYY-MM-DD
+    
+    %% axisFormat %d just shows the day number, mimicking the meeting sequence (1, 2, 3...)
+    axisFormat %d
+    tickInterval 1d
+    
+    %% The tasks with their specific starts and multi-colored bars.
+    %% Task labels are from the original image.
+
+    "Brainstorming and Planning"           :t1, 2024-01-01, 1d
+    "Requirement Analysis"                 :t2, 2024-01-02, 1d
+    "Wireframe and UI/UX"                  :t3, 2024-01-02, 2d
+    "Setting Up Database, Docker, Kubernetes" :t4, 2024-01-04, 2d
+    "AI Training, Data Extraction, etc."    :t5, 2024-01-06, 2d
+    "Develop Backend (API, logic, etc)"    :t6, 2024-01-08, 2d
+    "Front-end Dashboard and Integration"   :t7, 2024-01-10, 2d
+    "Testing and Deployment"               :t8, 2024-01-12, 1d
+```
+
+### 2. Requirements Analysis
+
+Use case diagram:
+
+Functional requirements:
+
+| **FR** | **Description** |
+| :--- | :--- |
+| FR 1 | The system must be able to display the current Air Quality Index (AQI) score based on the user’s location. |
+| FR 2 | The system must be able to display levels of key pollutants (e.g., PM2.5, PM10, CO2, O3) along with their hazard categories. |
+| FR 3 | The system must provide an air quality search feature based on city name or a specific location.  |
+| FR 4 | The system must provide recommendations or suggestions for physical activities based on air quality levels. |
+| FR 5 | The system must be able to send notifications or alerts when air quality reaches hazardous or unhealthy levels. |
+| FR 6 | The system must provide a landing page or “About Us” page containing the project profile and group information. |
+
+### 3. System Design
+
+Entity relationship diagram:
+
+Low-fidelity wireframe:
