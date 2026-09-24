@@ -19,8 +19,9 @@ Communities can track current pollution conditions, identify risky periods, and 
 ## 💻 Tech Stack
 
 ![Next.js](https://img.shields.io/badge/Next.js-16.3-black?style=for-the-badge&logo=next.js) 
-![TypeScript](https://img.shields.io/badge/TypeScript-7.0-blue?style=for-the-badge&logo=typescript)
-![Express](https://img.shields.io/badge/Express-5.2-green?style=for-the-badge&logo=express)
+![TypeScript](https://img.shields.io/badge/TypeScript-7.0-blue?style=for-the-badge&logo=typescript) 
+![Express](https://img.shields.io/badge/Express-5.2-green?style=for-the-badge&logo=express) 
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-blue?style=for-the-badge&logo=postgresql) 
 
 ## 📂 Repository Structure
 
