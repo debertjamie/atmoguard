@@ -1,0 +1,34 @@
+{
+  "name": "atmoguard",
+  "version": "1.0.0",
+  "description": "AtmoGuard is the tool for you to track your local air quality, get informed for potential upcoming risks and preventive measures.",
+  "directories": {
+    "doc": "docs"
+  },
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace=apps/backend",
+    "dev:frontend": "npm run dev --workspace=apps/frontend",
+    "build:backend": "npm run build --workspace=apps/backend",
+    "build:frontend": "npm run build --workspace=apps/frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debertjamie/atmoguard.git"
+  },
+  "author": "Debert Jamie",
+  "contributors": [
+    "Falah Aufa Anggara",
+    "Harum Satiti Astyanti"
+  ],
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/debertjamie/atmoguard/issues"
+  },
+  "homepage": "https://github.com/debertjamie/atmoguard#readme"
+}
