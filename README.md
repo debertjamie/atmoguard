@@ -25,7 +25,7 @@ Communities can track current pollution conditions, identify risky periods, and 
 
 ## 📂 Repository Structure
 
-```
+```text
 atmoguard/
 ├── apps/
 │   ├── backend/             # Express API
