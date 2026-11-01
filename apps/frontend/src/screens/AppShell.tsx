@@ -42,7 +42,7 @@ export function AppShell({ userName, profile, onLogout }: AppShellProps) {
                 type="button"
                 onClick={() => setTab(key)}
                 className={`flex items-center gap-3 rounded-xl px-3 py-2.5 transition-colors ${
-                  isActive ? "bg-primary/15" : "hover:bg-white/[0.06]"
+                  isActive ? "bg-primary/15" : "hover:bg-white/6"
                 }`}
                 aria-current={isActive ? "page" : undefined}
               >

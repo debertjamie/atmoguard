@@ -20,7 +20,7 @@ interface AppNavProps {
 export function BottomNav({ active, onChange }: AppNavProps) {
   return (
     <nav
-      className="lg:hidden fixed bottom-5 left-1/2 -translate-x-1/2 z-30 flex items-center gap-1 rounded-full border border-white/10 bg-[#080E1A]/80 px-2 py-2 shadow-2xl backdrop-blur-xl"
+      className="lg:hidden fixed bottom-5 left-1/2 -translate-x-1/2 z-30 flex items-center gap-1 rounded-full border border-white/10 bg-background/80 px-2 py-2 shadow-2xl backdrop-blur-xl"
       aria-label="Primary"
     >
       {TABS.map(({ key, label, Icon }) => {

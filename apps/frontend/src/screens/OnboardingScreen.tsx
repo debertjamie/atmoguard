@@ -55,7 +55,7 @@ export function OnboardingScreen({ onBack, onComplete }: OnboardingScreenProps) 
           <button
             type="button"
             onClick={handleBack}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-full text-slate transition-colors hover:bg-white/[0.08]"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full text-slate transition-colors hover:bg-white/8"
             aria-label="Go back"
           >
             <ArrowLeftIcon className="h-5 w-5" />
@@ -88,7 +88,7 @@ export function OnboardingScreen({ onBack, onComplete }: OnboardingScreenProps) 
                   className={`flex w-full items-center justify-between rounded-2xl border p-4 text-left transition-all ${
                     selected
                       ? "border-primary bg-primary/10"
-                      : "border-white/10 bg-white/[0.04] hover:border-white/20"
+                      : "border-white/10 bg-white/4 hover:border-white/20"
                   }`}
                 >
                   <span className="font-outfit text-base font-semibold text-foreground">{label}</span>
@@ -122,7 +122,7 @@ export function OnboardingScreen({ onBack, onComplete }: OnboardingScreenProps) 
                   className={`flex w-full items-center gap-3 rounded-2xl border p-4 text-left transition-all ${
                     selected
                       ? "border-primary bg-primary/10"
-                      : "border-white/10 bg-white/[0.04] hover:border-white/20"
+                      : "border-white/10 bg-white/4 hover:border-white/20"
                   }`}
                 >
                   <span className="h-9 w-1.5 shrink-0 rounded-full" style={{backgroundColor: color}} />
@@ -189,7 +189,7 @@ function NotifRow({
 }) {
   return (
     <div className="glass flex items-center gap-3 rounded-2xl p-3.5">
-      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/[0.08]">
+      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/8">
         {icon}
       </span>
       <span className="min-w-0 flex-1">

@@ -49,7 +49,7 @@ export function ProfilePage({ userName, profile, onLogout }: ProfilePageProps) {
         <h1 className="font-outfit text-2xl font-black text-foreground">Profile</h1>
         <button
           type="button"
-          className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/[0.08] text-slate"
+          className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/8 text-slate"
           aria-label="Settings"
         >
           <SettingsIcon className="h-5 w-5" />
@@ -57,7 +57,7 @@ export function ProfilePage({ userName, profile, onLogout }: ProfilePageProps) {
       </div>
 
       {/* Identity card */}
-      <div className="mt-5 rounded-2xl border border-white/10 bg-gradient-to-br from-primary/10 to-transparent p-5 shadow-sm backdrop-blur-md flex items-center gap-4">
+      <div className="mt-5 rounded-2xl border border-white/10 bg-linear-to-br from-primary/10 to-transparent p-5 shadow-sm backdrop-blur-md flex items-center gap-4">
         <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full" style={{backgroundColor: "rgba(0, 230, 177, 0.12)"}}>
           <LogoMark size={44} />
         </span>
@@ -158,7 +158,7 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   return (
     <div className="mt-6">
       <h2 className="mb-2 px-1 font-outfit text-sm font-bold text-slate">{title}</h2>
-      <div className="divide-y divide-white/10 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] shadow-sm backdrop-blur-md">
+      <div className="divide-y divide-white/10 overflow-hidden rounded-2xl border border-white/10 bg-white/4 shadow-sm backdrop-blur-md">
         {children}
       </div>
     </div>
@@ -178,7 +178,7 @@ function Row({
 }) {
   return (
     <div className="flex items-center gap-3 p-4">
-      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/[0.08]">
+      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/8">
         {icon}
       </span>
       <span className="flex-1 text-sm font-medium text-foreground">{label}</span>
@@ -203,7 +203,7 @@ function ToggleRow({
 }) {
   return (
     <div className="flex items-center gap-3 p-4">
-      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/[0.08]">
+      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/8">
         {icon}
       </span>
       <span className="min-w-0 flex-1">

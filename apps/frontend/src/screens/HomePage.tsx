@@ -46,7 +46,7 @@ export function HomePage({ userName }: { userName: string }) {
             {userName}
           </h1>
         </div>
-        <div className="mt-1 inline-flex items-center gap-1 rounded-full border border-white/10 bg-white/[0.08] px-3 py-1.5 text-xs font-medium text-foreground">
+        <div className="mt-1 inline-flex items-center gap-1 rounded-full border border-white/10 bg-white/8 px-3 py-1.5 text-xs font-medium text-foreground">
           <MapPinIcon className="h-3.5 w-3.5 text-primary" />
           {location.city}
         </div>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useState, type SubmitEvent } from "react";
 import { LogoMark } from "@/components/Logo";
 import { Button, Field } from "@/components/ui";
 import { ArrowLeftIcon } from "@/components/icons";
@@ -25,7 +25,7 @@ export function AuthScreen({
 
   const isRegister = mode === "register";
 
-  function handleSubmit(e: FormEvent) {
+  function handleSubmit(e: SubmitEvent<HTMLFormElement>) {
     e.preventDefault();
     const displayName =
       isRegister && name.trim()
@@ -39,7 +39,7 @@ export function AuthScreen({
       <button
         type="button"
         onClick={onBack}
-        className="mb-6 inline-flex h-10 w-10 items-center justify-center rounded-full text-slate transition-colors hover:bg-white/[0.08]"
+        className="mb-6 inline-flex h-10 w-10 items-center justify-center rounded-full text-slate transition-colors hover:bg-white/8"
         aria-label="Go back"
       >
         <ArrowLeftIcon className="h-5 w-5" />
@@ -58,7 +58,7 @@ export function AuthScreen({
       </div>
 
       {/* Mode toggle */}
-      <div className="mb-6 grid grid-cols-2 gap-1 rounded-2xl border border-white/10 bg-white/[0.06] p-1">
+      <div className="mb-6 grid grid-cols-2 gap-1 rounded-2xl border border-white/10 bg-white/6 p-1">
         {(["register", "login"] as Mode[]).map((m) => (
           <button
             key={m}
@@ -66,7 +66,7 @@ export function AuthScreen({
             onClick={() => setMode(m)}
             className={`rounded-xl py-2.5 text-sm font-semibold transition-all ${
               mode === m
-                ? "bg-white/[0.12] text-foreground shadow-sm"
+                ? "bg-white/12 text-foreground shadow-sm"
                 : "text-slate hover:text-foreground"
             }`}
           >

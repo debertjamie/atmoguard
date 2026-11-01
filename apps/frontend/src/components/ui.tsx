@@ -46,7 +46,7 @@ export function Field({ label, hint, className = "", ...rest }: FieldProps) {
     <label className="block">
       <span className="font-outfit text-sm font-medium text-foreground">{label}</span>
       <input
-        className={`mt-1.5 w-full rounded-2xl border border-white/10 bg-white/[0.06] px-4 py-3.5 text-base text-foreground outline-none transition-colors placeholder:text-white/30 focus:border-primary ${className}`}
+        className={`mt-1.5 w-full rounded-2xl border border-white/10 bg-white/6 px-4 py-3.5 text-base text-foreground outline-none transition-colors placeholder:text-white/30 focus:border-primary ${className}`}
         {...rest}
       />
       {hint && <span className="mt-1 block text-xs text-slate">{hint}</span>}
@@ -63,7 +63,7 @@ export function Card({
 }) {
   return (
     <div
-      className={`rounded-2xl border border-white/10 bg-white/[0.06] p-5 shadow-sm backdrop-blur-md ${className}`}
+      className={`rounded-2xl border border-white/10 bg-white/6 p-5 shadow-sm backdrop-blur-md ${className}`}
     >
       {children}
     </div>

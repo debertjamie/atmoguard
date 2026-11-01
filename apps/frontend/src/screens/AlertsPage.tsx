@@ -33,7 +33,7 @@ export function AlertsPage({
             Your recent air quality notifications
           </p>
         </div>
-        <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/[0.08]">
+        <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/8">
           <BellIcon className="h-5 w-5 text-primary" />
         </span>
       </div>
