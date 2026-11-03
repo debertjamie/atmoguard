@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/debertjamie/atmoguard/issues"
   },
-  "homepage": "https://github.com/debertjamie/atmoguard#readme"
+  "homepage": "https://github.com/debertjamie/atmoguard#readme",
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
 }
